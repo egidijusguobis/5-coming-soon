@@ -1,0 +1,16 @@
+{
+  "name": "5-coming-soon",
+  "version": "1.0.0",
+  "description": "Demo Coming soon project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["html", "css", "js"],
+  "author": "Egidijus Guobis",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
