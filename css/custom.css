@@ -1,0 +1,19 @@
+/*BASE*/
+@import './base/layout.css';
+@import './base/reset.css';
+@import './base/variables.css';
+/*3rd PARTY*/
+/*COMPONENTS*/
+@import './components/button.css';
+@import './components/clock.css';
+@import './components/form.css';
+@import './components/mouse.css';
+@import './components/progress-bar.css';
+/*Custom styles fown below*/
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
