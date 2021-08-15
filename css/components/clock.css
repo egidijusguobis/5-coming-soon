@@ -1,0 +1,44 @@
+.clock {
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    width: 100%;
+    color: white
+
+}
+
+.clock > .time {
+    width: 100%;
+
+}
+
+.clock > .time > .value {
+    display: inline-block;
+    width: 100%;
+    font-size: 75px;
+    line-height: 60px;
+
+}
+
+.clock > .time > .label {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+@media (max-width: 700px) {
+    .clock {
+       grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 500px) {
+    .clock {
+        grid-template-columns: 1fr;
+    }
+}
+

@@ -1,0 +1,106 @@
+/*BASE*/
+@import './base/layout.css';
+@import './base/reset.css';
+@import './base/variables.css';
+/*3rd PARTY*/
+/*COMPONENTS*/
+@import './components/button.css';
+@import './components/clock.css';
+@import './components/form.css';
+@import './components/mouse.css';
+@import './components/progress-bar.css';
+/*Custom styles fown below*/
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
+
+/* hero content */
+.hero {
+    min-height: 100vh;
+    text-align: center;
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero .logo {
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.hero .main-title {
+    margin-bottom: 20px;
+    font-size: 75px;
+    text-transform: uppercase;    
+}
+
+.hero .main-description {
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #555;
+}
+
+.hero .clock {
+    margin-bottom: 40px;
+}
+
+.hero .form {
+    margin-bottom: 20px;
+}
+
+
+
+/* main content */
+main .left-column {
+    width: 50%;
+    float: left;
+
+}
+
+main .right-column {
+    width: 40%;
+    float: right;
+
+}
+
+main .section-title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+main .section-description {
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+main .section-description > a {
+    color: var(--secondary-color);
+    font-size: inherit;
+    line-height: inherit;
+    text-decoration: none;
+}
+
+main .section-description a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 900px) {
+    main .left-column {
+        width: 100%;
+        margin-bottom: 75px;
+    
+    }
+    
+    main .right-column {
+        width: 100%;
+    
+    }    
+}
+
+/* footer content */
