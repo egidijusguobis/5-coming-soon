@@ -56,5 +56,51 @@
 
 
 /* main content */
+main .left-column {
+    width: 50%;
+    float: left;
+
+}
+
+main .right-column {
+    width: 40%;
+    float: right;
+
+}
+
+main .section-title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+main .section-description {
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+main .section-description > a {
+    color: var(--secondary-color);
+    font-size: inherit;
+    line-height: inherit;
+    text-decoration: none;
+}
+
+main .section-description a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 900px) {
+    main .left-column {
+        width: 100%;
+        margin-bottom: 75px;
+    
+    }
+    
+    main .right-column {
+        width: 100%;
+    
+    }    
+}
 
 /* footer content */
