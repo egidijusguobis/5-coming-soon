@@ -1,0 +1,27 @@
+.progress-bar {
+    width: 100%;
+}
+.progress-bar + .progress-bar {
+    margin-top: 25px;
+}
+.progress-bar > .top {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.progress-bar > .top > .label {
+    float: left;
+}
+.progress-bar > .top > .value {
+    float: right;
+}
+.progress-bar > .bottom {
+    width: 100%;
+    height: 8px;
+    background-color: #ddd;
+}
+.progress-bar > .bottom > .progress {
+    width: 90%;
+    height: 100%;
+    background-color: #36f;
+}
