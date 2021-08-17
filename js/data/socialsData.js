@@ -1,0 +1,3 @@
+const socialsData = [];
+
+export { socialsData }

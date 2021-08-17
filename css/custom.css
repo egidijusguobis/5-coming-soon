@@ -3,6 +3,7 @@
 @import './base/reset.css';
 @import './base/variables.css';
 /*3rd PARTY*/
+@import './3rd-party/font-awesome.min.css';
 /*COMPONENTS*/
 @import './components/button.css';
 @import './components/clock.css';
@@ -115,6 +116,20 @@ footer.container {
 .socials {
     padding: 15px 0;
     border-bottom: 1px solid #fff;
+}
+
+.socials > a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.socials > a:hover {
+    background-color: #fff;
+    color: var(--primary-color);
 }
 
 .footer-logo {
