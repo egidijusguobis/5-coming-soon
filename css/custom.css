@@ -104,3 +104,41 @@ main .section-description a:hover {
 }
 
 /* footer content */
+footer.container {
+    padding-top: 0;
+    text-align: center;
+    color: #fffc;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.socials {
+    padding: 15px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.footer-logo {
+    margin: 30px 0;
+
+}
+.footer-trio {
+    display: flex;
+    justify-content: center;
+    gap: 0 20px;
+
+}
+.footer-trio > .item {
+
+}
+.footer-description {
+
+}
+footer a {
+    color: #fff;
+}
+
+@media (max-width: 640px) {
+    .footer-trio {
+        flex-direction: column;
+    }
+}
