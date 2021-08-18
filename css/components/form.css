@@ -1,0 +1,12 @@
+/* Subscription form */
+
+.your-email {
+    margin-top: 80px;   
+}
+
+form > .your-email > input {
+    display: inline-block;
+    border: none;
+    outline: 2px solid #fff;
+}
+

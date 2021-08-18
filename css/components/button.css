@@ -1,0 +1,15 @@
+.subscribe-button {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    text-transform: capitalize;
+    margin-top: 80px;
+    font-size: 20px;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 3px;
+}
+.subscribe-button:hover {
+    cursor: pointer;
+}
