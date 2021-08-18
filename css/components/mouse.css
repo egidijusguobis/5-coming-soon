@@ -1,21 +1,21 @@
 .mouse {
     display: inline-block;
-    width: 20px;
-    height: 30px;
-    border: 2px solid #fff;
-    border-radius: 80px;
+    width: 30px;
+    height: 45px;
+    border: 3px solid #fff;
+    border-radius: 15px;
     position: relative;
 }
 
 .mouse::before {
     content: "";
     display: inline-block;
-    width: 3px;
-    height: 6px;
+    width: 4px;
+    height: 8px;
     background-color: #fff;
     border-radius: 2px;
     position: absolute;
-    top: 4px;
+    top: 3px;
     left: 50%;
     transform: translateX(-50%);
     animation-name: scroll;
@@ -26,7 +26,7 @@
 
 @keyframes scroll {
     0% {
-        top: 4px;
+        top: 3px;
         opacity: 1;
     }
     50% {
@@ -34,7 +34,7 @@
     }
 
     100% {
-        top: 15px;
+        top: 26px;
         opacity: 0;
     }
 }
