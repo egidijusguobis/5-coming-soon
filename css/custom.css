@@ -3,6 +3,7 @@
 @import './base/reset.css';
 @import './base/variables.css';
 /*3rd PARTY*/
+@import './3rd-party/font-awesome.min.css';
 /*COMPONENTS*/
 @import './components/button.css';
 @import './components/clock.css';
@@ -93,7 +94,7 @@ main .section-description a:hover {
 @media (max-width: 900px) {
     main .left-column {
         width: 100%;
-        margin-bottom: 75px;
+        margin-bottom: 80px;
     
     }
     
@@ -104,3 +105,56 @@ main .section-description a:hover {
 }
 
 /* footer content */
+footer.container {
+    padding-top: 0;
+    text-align: center;
+    color: #fffc;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.socials {
+    padding: 15px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.socials > a {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    line-height: 40px;
+    font-size: 22px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.socials > a:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+.footer-logo {
+    margin: 30px 0;
+
+}
+.footer-trio {
+    display: flex;
+    justify-content: center;
+    gap: 0 20px;
+
+}
+.footer-trio > .item {
+
+}
+.footer-description {
+
+}
+footer a {
+    color: #fff;
+}
+
+@media (max-width: 640px) {
+    .footer-trio {
+        flex-direction: column;
+    }
+}
